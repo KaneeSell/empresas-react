@@ -1,0 +1,8 @@
+.btnCadastro{
+    width: 150px;
+}
+.layoutCadastros{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}

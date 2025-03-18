@@ -1,0 +1,34 @@
+.btnsResponse{
+    padding: 0px 10px;
+    display: flex;
+    gap: 1rem;
+}
+@media(max-width: 700px){
+    .btnsResponse{
+        display: relative;
+        margin-right: 110px;
+        margin-left: -150px;
+        margin-top: 50px;
+        margin-bottom: -50px;
+    }
+}
+@media(max-width: 550px){
+    .btnsResponse{
+        display: relative;
+        margin-right: 25px;
+        margin-left: -170px;
+        margin-top: 50px;
+        margin-bottom: -40px;
+        gap: 0px;
+        flex-flow: column;
+    }
+    .btnsResponse2{
+        padding: 10px 0px;
+        display: flex;
+        margin: 0px 0px 0px 0px !important;
+        justify-content: center;
+    }
+    .iconVoltar{
+        margin-top: -60px;
+    }
+}

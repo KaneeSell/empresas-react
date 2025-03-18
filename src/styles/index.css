@@ -1,0 +1,136 @@
+@font-face {
+  font-family: Hezaedrus;
+  src: url('../assets/fonts/Hezaedrus.ttf.woff');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100vh;
+}
+.btn-tema1{
+  background-color: #04BF7B;
+}
+.btn-tema1:hover{
+  background-color: #6AD9B0;
+}
+.btn-tema2{
+  background-color: #6AD9B0;
+}
+.btn-tema2:hover{
+  background-color: #04BF7B;
+}
+.btn-tema3{
+  background-color: #04D976;
+  color: white;
+}
+.btn-tema3:hover{
+  background-color: #04BF7B;
+}
+.btn-tema4{
+  background-color: #04BF7B;
+}
+.btn-tema4:hover{
+  background-color: #04D976;
+}
+.tema1{
+  background-color: #f0f0f0 !important;
+}
+.tema2{
+  color: #0D4C73 !important;
+  background-color: #0D4C73 !important;
+}
+.tema1:hover{
+  background-color: #dadada !important;
+}
+.shadow1{
+  box-shadow: 3px 3px 1px rgb(205, 205, 205);
+}
+.font1{
+  font-family: 'Hezaedrus New';
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.font2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.font3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.font4{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.font5{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input-form1{
+  border: none;
+  border-bottom: 1px solid #0D4C73;
+  border-radius: 0px !important;
+}
+.btnCardView{
+ color: black;
+ padding: 0px;
+}
+.btnCardView:hover{
+  color: rgb(45, 45, 250);
+}
+.btnCardEdit{
+ color: black;
+ padding: 0px;
+}
+.btnCardEdit:hover{
+  color: rgb(255, 255, 107);
+}
+.btnCardRemove{
+  color: rgb(255, 90, 90);
+  padding: 0px;
+}
+.btnCardRemove:hover{
+  color: white;
+}
+.linkCadastro{
+  border-bottom: 3px solid #04BF7B;
+  padding-bottom: 0px;
+}
+.btnSalvarCadastro{
+  position: absolute;
+  top: 90px;
+  right: 5px;
+  width: 80px;
+  height: 25px;
+  padding: 0px;
+}
+.cor1{
+  color: #0D4C73 !important;
+}
+.cor2{
+  color: #04BF7B !important;
+}
+.cor0{
+  color: #ffffff !important;
+}
+.fs-6{
+  font-size: 0.9rem !important;
+}
+.h-93{
+  height: 93%;
+}
+.cursor-pointer{
+  cursor: pointer !important;
+}
+.p-05{
+  padding: 0.15rem;
+}
+.bg-bege{
+  background-color: #e5e5e5 !important;
+}
+/* Modo escuro */
+[data-bs-theme="dark"].bg-bege{
+  background-color: #757575 !important;
+}

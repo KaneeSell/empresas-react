@@ -1,0 +1,43 @@
+{
+  "name": "empresas-react",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Aplicação web para cadastro de empresas, desenvolvida com React, Bootstrap e Vite.",
+  "author": "Kane'e Sell <Kanee.sell@gmail.com>",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:vite\" \"npm run dev:json\"",
+    "dev:vite": "vite --port 8000 --host",
+    "dev:json": "node src/api/server.js",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "4.0.14",
+    "axios": "^1.8.3",
+    "bootstrap": "5.3.3",
+    "concurrently": "^9.1.2",
+    "cpf-cnpj-validator": "^1.0.3",
+    "json-server": "0.17.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-icons": "^5.5.0",
+    "react-input-mask": "^2.0.4",
+    "react-markdown": "^10.1.0",
+    "react-router": "7.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.22.0",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "@vitejs/plugin-react-swc": "3.8.0",
+    "eslint": "9.22.0",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "eslint-plugin-react-refresh": "0.4.19",
+    "globals": "16.0.0",
+    "typescript": "5.8.2",
+    "typescript-eslint": "8.26.1",
+    "vite": "6.2.2"
+  }
+}

@@ -1,0 +1,14 @@
+.fundoLogin{
+    background-color: #dcdcdc;
+}
+.cardLogin{
+    background-color: #fff;
+}
+.letraEsq{
+    font-size: 0.8em;
+}
+.hrBar{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
