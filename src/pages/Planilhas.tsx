@@ -20,23 +20,23 @@ export default function Planilhas(){
                         <tbody>
                             <tr>
                                 <td className='p-2 ps-3'>Cálculo Simples Nacional.xlsx</td>
-                                <td className='p-2 ps-3'><a href="#">Download</a></td>
+                                <td className='p-2 ps-3'><a href="../assets/docs/Planilha.xlsx" download={'Cálculo Simples Nacional.xlsx'} >Download</a></td>
                             </tr>
                             <tr className='bg-bege'>
                                 <td className='p-2 ps-3'>Tese Exclusão do ICMS BC PIS Cofins - Bloco C170.xlsb</td>
-                                <td className='p-2 ps-3'><a href="#">Download</a></td>
+                                <td className='p-2 ps-3'><a href="../assets/docs/Planilha.xlsx" download={'Tese Exclusão do ICMS BC PIS Cofins - Bloco C170.xlsb'}>Download</a></td>
                             </tr>
                             <tr>
                                 <td className='p-2 ps-3'>Tese Exclusão do PIS Cofins da própria BC - Bloco C170.xlsb</td>
-                                <td className='p-2 ps-3'><a href="#">Download</a></td>
+                                <td className='p-2 ps-3'><a href="../assets/docs/Planilha.xlsx" download={'Tese Exclusão do PIS Cofins da própria BC - Bloco C170.xlsb'}>Download</a></td>
                             </tr>
                             <tr className='bg-bege'>
                                 <td className='p-2 ps-3'>Tese Gross Up - Bloco C170.xlsx</td>
-                                <td className='p-2 ps-3'><a href="#">Download</a></td>
+                                <td className='p-2 ps-3'><a href="../assets/docs/Planilha.xlsx" download={'Tese Gross Up - Bloco C170.xlsx'}>Download</a></td>
                             </tr>
                             <tr>
                                 <td className='p-2 ps-3'>Tese LC 192 - Bloco C170.xlsb</td>
-                                <td className='p-2 ps-3'><a href="#">Download</a></td>
+                                <td className='p-2 ps-3'><a href="../assets/docs/Planilha.xlsx" download={'Tese LC 192 - Bloco C170.xlsb'}>Download</a></td>
                             </tr>
                         </tbody>
                     </table>
