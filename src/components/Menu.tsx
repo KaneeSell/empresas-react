@@ -17,7 +17,7 @@ export default function Menu(props: MenuProps){
     const navegar = useNavigate()
     return (
         <div className="m-0 p-0">
-            <nav className="navbar bg-bege">
+            <nav className="navbar bg-bege pe-3">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
                         <RecuperaTaxIcon tamanho="150px"/>

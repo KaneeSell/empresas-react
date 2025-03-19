@@ -45,13 +45,10 @@ export default function FormCadastro(props: FormCadastro) {
 
     function submitForm(e:FormEvent){
         e.preventDefault()
-        console.log(validarCNPJ(cnpj))
         if (validarCNPJ(cnpj)){
             salvarRetornar()
-            console.log('cnpj valido')
         } else{
             setMensagem('CNPJ Inválido!')
-            console.log(mensagem)
         }
     }
 
@@ -68,7 +65,7 @@ export default function FormCadastro(props: FormCadastro) {
 
     return (
         <form onSubmit={(event) => submitForm(event)}
-        className="container rounded-3 bg-bege mt-2">
+        className="container rounded-3 bg-bege mt-2 pt-3">
             <button className="btn btn-tema1 rounded-1 text-light btnSalvarCadastro"
             type="submit"
             >Salvar</button>
@@ -88,8 +85,8 @@ export default function FormCadastro(props: FormCadastro) {
                             >CNPJ</label>
                             <input type="text" 
                             className="form-control"
-                            maxLength={18}
                             minLength={18}
+                            maxLength={18}
                             id="cnpj"
                             value={cnpj}
                             onChange={(e) => setCNPJ(formatarCNPJ(e.target.value))}
@@ -178,8 +175,8 @@ export default function FormCadastro(props: FormCadastro) {
                         >País</label>
                         <input type="text" 
                         className="form-control"
-                        maxLength={3}
-                        minLength={20}
+                        minLength={3}
+                        maxLength={20}
                         id="pais"
                         value={pais}
                         onChange={(e) => setPais(e.target.value)}
