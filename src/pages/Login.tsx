@@ -2,7 +2,7 @@ import { FormEvent, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router'
 import styles from '../styles/login.module.css'
 import { excluirLogin, lembrarLogin, salvarLogin } from '../hooks/LembrarSenha'
-import { MoonIcon, RecuperaTaxIcon, SunIcon } from '../components/Icons'
+import { RecuperaTaxIcon } from '../components/Icons'
 
 function Login() {
 

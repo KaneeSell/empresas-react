@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from 'react-router'
+import { HashRouter, Routes, Route } from 'react-router'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import '../styles/index.css'
@@ -16,7 +16,7 @@ import EditarCadastro from './EditarCadastro'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Layout>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path={'/'} element={<Login/>} />
           <Route path={'/inicio'} element={<Inicio/>} />
@@ -26,7 +26,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path={'/planilhas'} element={<Planilhas/>} />
           <Route path={'/*'} element={<Erro404/>} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </Layout>
   </StrictMode>,
 )

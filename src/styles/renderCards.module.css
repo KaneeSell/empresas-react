@@ -2,9 +2,12 @@
     display: flex;
     justify-content: start;
     align-items: start;
+    flex-flow: column nowrap;
+    gap: 10px;
     width: 100%;
     padding: 50px 10px 10px 10px;
     width: 100%;
+    max-width: 100em;
 }
 .responseCardPai{
     display: flex;

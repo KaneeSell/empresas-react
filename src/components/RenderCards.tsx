@@ -2,7 +2,6 @@ import Empresas from '../hooks/Cadastros'
 import { EditIcon, EyesIcon, TrashIcon } from './Icons'
 import { Remover } from '../hooks/ConexaoDB'
 import { useNavigate } from 'react-router'
-import { FaEye } from 'react-icons/fa6'
 import styles from '../styles/renderCards.module.css'
 
 interface RenderTableProps{

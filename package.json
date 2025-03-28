@@ -4,12 +4,14 @@
   "version": "1.0.0",
   "description": "Aplicação web para cadastro de empresas, desenvolvida com React, Bootstrap e Vite.",
   "author": "Kane'e Sell <Kanee.sell@gmail.com>",
+  "homepage": "https://kaneesell.github.io/empresas-react/",
   "type": "module",
   "scripts": {
     "dev": "concurrently \"npm run dev:vite\" \"npm run dev:json\"",
     "dev:vite": "vite --port 8000 --host",
     "dev:json": "node src/api/server.js",
     "build": "tsc -b && vite build",
+    "deploy": "npm run build && npx gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -19,6 +21,7 @@
     "bootstrap": "5.3.3",
     "concurrently": "^9.1.2",
     "cpf-cnpj-validator": "^1.0.3",
+    "gh-pages": "^6.3.0",
     "json-server": "0.17.4",
     "react": "19.0.0",
     "react-dom": "19.0.0",

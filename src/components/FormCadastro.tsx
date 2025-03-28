@@ -133,7 +133,7 @@ export default function FormCadastro(props: FormCadastro) {
                             <input type="text" 
                             className="form-control"
                             minLength={10}
-                            maxLength={12}
+                            maxLength={18}
                             id="contato"
                             value={contato}
                             onChange={(e) => setContato(e.target.value)}

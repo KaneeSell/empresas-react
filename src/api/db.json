@@ -1,4 +1,52 @@
 {
   "empresas": [
+    {
+      "nome": "TechNova Solutions LTDA",
+      "nomeFantasia": "TechNova",
+      "email": "contato@technova.com.br",
+      "cep": "01000-000",
+      "cnpj": "69.486.144/0001-04",
+      "pais": "Brasil",
+      "estado": "SP",
+      "bairro": "Centro",
+      "rua": "Avenida Paulista",
+      "numero": "1000",
+      "complemento": "Sala 501",
+      "contato": "+55 11 98765-4321",
+      "cidade": "São Paulo",
+      "id": 1
+    },
+    {
+      "nome": "Green Agro Comércio e Exportação LTDA",
+      "nomeFantasia": "Green Agro",
+      "email": "vendas@greenagro.com.br",
+      "cep": "80000-000",
+      "cnpj": "49.482.706/0001-26",
+      "pais": "Brasil",
+      "estado": "PR",
+      "bairro": "Batel",
+      "rua": "Rua Vicente Machado",
+      "numero": "550",
+      "complemento": "Andar 3",
+      "contato": "+55 41 99876-5432",
+      "cidade": "Curitiba",
+      "id": 2
+    },
+    {
+      "nome": "SkyNet Tecnologia e Sistemas S.A.",
+      "nomeFantasia": "SkyNet Tech",
+      "email": "suporte@skynet.com.br",
+      "cep": "22000-000",
+      "cnpj": "57.178.891/0001-98",
+      "pais": "Brasil",
+      "estado": "RJ",
+      "bairro": "Copacabana",
+      "rua": "Avenida Atlântica",
+      "numero": "2500",
+      "complemento": "Cobertura 2",
+      "contato": "+55 21 98700-1122",
+      "cidade": "Rio de Janeiro",
+      "id": 3
+    }
   ]
 }
